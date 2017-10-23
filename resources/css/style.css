@@ -1,51 +1,44 @@
-body {
-  display: flex;
-}
+
 
 .header {
   display: flex;
+
 font-family: Verdana;
 font-size: 14px;
 font-weight: bold;
-}
 
+}
 nav {
   display: inline-block;
-
-  ul {
-    display: inline-block;
-    justify-content: flex-end;
-  }
 }
+
+
+
+
+
+
+
 
 .logo {
   color: MediumAquamarine;
 }
 
 .container {
+  display: flex;
+  display: inline-block;
   margin-top: 200px;
   width: 1500px;
   display: flex;
+}
 
 
 
-justify-content: center;
-}
-.column {
-padding: 20px;
-  justify-content: space-between;
-}
-.large {
-  padding: 20px;
-}
+
 .column.large {
-  text-align:center;
-flex-shrink: 2;
-  display: flex;
-
   border: 1px solid black;
   width: 630px;
 }
+
 .row {
 
 display: inline-flex;
@@ -54,12 +47,13 @@ display: inline-flex;
 
 .column.medium {
   border: 1px solid black;
-  width: 100px;
+  width: 300px;
+
 
 }
 
 .column.small {
-  flex-direction: column;
+
   border: 1px solid black;
   width: 240px;
 }
@@ -89,12 +83,12 @@ height: 300px;
 }
 .image5 {
 height: 300px;
-justify-content: center;
+
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
 
 }
 p {
-  justify-content: space-around;
+
   font-family: Georgia;
   font-size: 17px;
   color: black;
